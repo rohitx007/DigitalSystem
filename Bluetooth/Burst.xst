@@ -1,0 +1,5 @@
+set -tmpdir "E:/XY/Bluetooth/xst/projnav.tmp"
+set -xsthdpdir "E:/XY/Bluetooth/xst"
+elaborate
+-ifn Burst.prj
+-ifmt mixed

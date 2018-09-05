@@ -1,0 +1,5 @@
+set -tmpdir "E:/XY/Simulation/xst/projnav.tmp"
+set -xsthdpdir "E:/XY/Simulation/xst"
+elaborate
+-ifn Simulation.prj
+-ifmt mixed

@@ -1,0 +1,339 @@
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-vq100-5 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-vq100-5 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-vq100-5 Bluetooth.ngc Bluetooth.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-vq100-5 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
+xst -intstyle ise -ifn "E:/XY/Bluetooth/Bluetooth.xst" -ofn "E:/XY/Bluetooth/Bluetooth.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bluetooth.ucf -p xc3s100e-cp132-4 Bluetooth.ngc Bluetooth.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Bluetooth_map.ncd Bluetooth.ngd Bluetooth.pcf 
+par -w -intstyle ise -ol high -t 1 Bluetooth_map.ncd Bluetooth.ncd Bluetooth.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Bluetooth.twx Bluetooth.ncd -o Bluetooth.twr Bluetooth.pcf -ucf Bluetooth.ucf 
+bitgen -intstyle ise -f Bluetooth.ut Bluetooth.ncd 
